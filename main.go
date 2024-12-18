@@ -22,11 +22,6 @@ func main() {
 		remainingTickets = remainingTickets - userTicket
 
 		//
-
-		//
-
-		//
-
 		fmt.Printf("Thank you %v for booking %v tickets.You will receive a confirmation email at %v\n", username, userTicket, email)
 		fmt.Printf("%v tickets remaining for %v\n", remainingTickets, conferencename)
 	}
